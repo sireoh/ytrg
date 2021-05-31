@@ -1,6 +1,8 @@
 # ymdbg
 # Youtube Mix Discord Bot Gen (Rhythm, Groovy etc) by eoh v1.0
 
+browser version: https://sireoh.itch.io/ymdbg
+
 Youtube Mix Discord Bot Gen is a generator that creates automixes for YouTube using 
 
 ## Installation
