@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<body>
+
+<title>Youtube Mix Discord Bot Gen (Rhythm, Groovy etc) by eoh v1.0</title>
+
+<script>
+/*
+https://www.youtube.com/watch?v=pbNs7tAUFkk&list=RDpbNs7tAUFkk&start_radio=1&rv=pbNs7tAUFkk&t=1
+https://www.youtube.com/watch?v=pbNs7tAUFkk
+*/
+
+//Initialize Variables
+var yt_url = prompt("Please input the YouTube url link here.");
+
+//Detect if There was an Input Inserted.
+if (yt_url.length < 21 && yt_url.length > 0)
+{
+	alert("Invalid Link.");
+}
+else if (yt_url.length > 0 && yt_url.length > 21)
+{
+	//Script
+	var ending_chunk_with_watch = yt_url.substring(24);
+	var ending_chunk_without_watch = yt_url.substring(32);
+
+	var converted_to_ytmix_url = "https://www.youtube.com/" + ending_chunk_with_watch + "&list=RD" + ending_chunk_without_watch + "&start_radio=1&rv=" + ending_chunk_without_watch;
+
+	var askusingCommand = prompt("Are you using [1]Rhythm, [2]Groovybot, or [3]Manually?.");
+
+		switch(askusingCommand)
+		{
+		case '1':	var converted_to_ytmix_url_with_command = "!p " + converted_to_ytmix_url;
+						alert(converted_to_ytmix_url_with_command);
+						document.writeln(converted_to_ytmix_url_with_command);
+		break;
+
+		case '2':	var converted_to_ytmix_url_with_command = "-p " + converted_to_ytmix_url;
+						alert(converted_to_ytmix_url_with_command);
+						document.writeln(converted_to_ytmix_url_with_command);
+		break;
+
+		case '3':	var converted_to_ytmix_url_with_command = converted_to_ytmix_url;
+						alert(converted_to_ytmix_url_with_command);
+						document.writeln(converted_to_ytmix_url_with_command);
+		break;
+
+		default: alert("null.");
+		break;
+		}
+}
+else
+{
+	alert("Nothing was inputed.");
+}
+
+
+
+
+
+</script>
+
+</body>
+</html>
