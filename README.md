@@ -1,30 +1,11 @@
-# ymdbg
-# Youtube Mix Discord Bot Gen (Rhythm, Groovy etc) by eoh v1.0
+###About
+-----------
+YouTube Music and Discord Radio Generator, also known as "ytmdg", is a web app created by sireoh. It is used for generating a playlist from a single track, using YouTube's radio feature.
 
-browser version: https://sireoh.itch.io/ymdbg
+It's distributed under the GNU General Public License v3.0.
 
-Youtube Mix Discord Bot Gen is a generator that creates automixes for YouTube using 
-
-## Installation
-
-Extract the .zip and put it somewhere you'll remember.
-Set default program as your default browser(Chrome, Firefox, Edge etc).
-
-## Usage
-
-Use online at [itch page link] or download for offline using Chrome, Firefox, Edge etc to run with.
-
-Input the youtube URL
-https://www.youtube.com/watch?v=*
-
-Answer prompt
-1 - Rhythm Bot
-2 - Groovy Bot
-3 - Manually
-
-Output through alert box, or printed below(For browsers with unsupported copy/paste in alert boxes).
-
-## License
-[Itch](https://sireoh.itch.io/)
-[Github](https://github.com/sireoh)
-[Instagram](https://www.instagram.com/xsireoh)
+###About
+-----------
+- Website: [https://sireoh.itch.io/](https://sireoh.itch.io/)
+- Twitter: [https://twitter.com/kimerura](https://twitter.com/kimerura)
+- Instagram: [https://www.instagram.com/sireohseo](https://www.instagram.com/sireohseo)
