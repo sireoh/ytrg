@@ -1,17 +1,16 @@
-<title>Eoh's Ytmdr Gen v2.0</title>
+<title>eo ytrg</title>
 
 <html>
 <head>
-    <meta charset=“UTF-8”>
+    <meta charset=UTF-8>
+    <link href="https://fonts.cdnfonts.com/css/inzania" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <h1>Eoh's YouTube Music and Discord Radio Generator v2.0</h1>
 </head>
 <body>
-    <textarea id="input"></textarea>
-    <button type="button" onclick="regYT()">YouTube.com</button>
-    <button type="button" onclick="YTMusic()">YTMusic</button>
-    <textarea id="output"></textarea>
-    <button type="button" onclick="copyText()">Copy</button>
-    <script src="app.js"></script>
+    <form onsubmit="run(event)" class="container">
+        <input type="text" name="input" class="inp" value="https://www.youtube.com/watch?v=_caMQpiwiaU&ab_channel=schmoyoho">
+        <button type="submit" class="btn">generate</button>
+    </form>
+    <script src="ytrg.js"></script>
 </body>
 </html>
